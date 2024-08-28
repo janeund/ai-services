@@ -1,9 +1,16 @@
-function App() {
+import Button from "./components/Button";
+
+const App = () => {
   return (
     <>
-      <div>Hello</div>
+      <Button
+        href="#login"
+        className=""
+      >
+        Click
+      </Button>
     </>
   );
-}
+};
 
 export default App;
